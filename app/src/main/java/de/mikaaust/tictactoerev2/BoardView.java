@@ -93,7 +93,7 @@ public class BoardView extends View {
 
     private void drawGrid(Canvas canvas) {
         for (int i = 0; i < 2; i++) {
-            // vertical lines
+
             float left = eltW * (i + 1);
             float right = left + LINE_THICK;
             float top = 0;
@@ -101,7 +101,7 @@ public class BoardView extends View {
 
             canvas.drawRect(left, top, right, bottom, gridPaint);
 
-            // horizontal lines
+
             float left2 = 0;
             float right2 = width;
             float top2 = eltH * (i + 1);
