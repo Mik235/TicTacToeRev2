@@ -70,7 +70,7 @@ public class BoardView extends View {
             if (win != ' ') {
                 activity.gameEnded(win);
             } else {
-                // computer plays ...
+
                 win = gameEngine.computer();
                 invalidate();
 

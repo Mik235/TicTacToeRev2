@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gameEnded(char c) {
-        String msg = (c == 'T') ? "Spiel Beendet. Unentschieden" : "Spiel Beendet. " + c + " gewonnen";
+        String msg = (c == 'T') ? "Spiel Beendet. Unentschieden" : "Spiel Beendet. " + c + " hat  gewonnen";
 
         new AlertDialog.Builder(this).setTitle("Tic Tac Toe").
                 setMessage(msg).
