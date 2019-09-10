@@ -24,7 +24,7 @@ public class GameEngine {
         return checkEnd();
     }
     public void changePlayer(){
-        currentPlayer=(currentPlayer=='X'?'0':'X');
+        currentPlayer=(currentPlayer=='X'?'O':'X');
     }
     public char elt(int x,int y ){
         return elts[3*y+x];
