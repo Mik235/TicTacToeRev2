@@ -69,6 +69,7 @@ public class GameEngine {
         if(!ended){
             int position =-1;
             do{
+
                 position=RANDOM.nextInt(9);
 
             }while (elts[position]!= ' ');
